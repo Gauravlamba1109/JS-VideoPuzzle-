@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    overflow: hidden;
+    overscroll-behavior: none;
+    font-family: sans-serif;
+}
+
+#menuItems{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:rgba(94, 99, 196, 0.9);
+    text-align: center;
+    color: rgb(8, 7, 10);
+    padding: 5vmin;
+    border: rgba(1, 0, 0, 0.6) solid;
+    font-size: 7vmin;
+}
+
+button{
+    font-size: 7vmin;
+    background: rgb(173, 82, 82);
+    color: white;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1vmin;
+}
+button:hover{
+    background: rgb(168, 157, 137);
+    color: black;
+}
+
+select{
+    font-size: 7vmin;
+    cursor:pointer;
+    border: none;
+    border-radius: 1vmin;
+    outline: none;
+}
+
+#time{
+    position:absolute;
+    top:0;
+    background-color: rgba(255, 235, 205, 0.439);
+    left: 50%;
+    border-radius: 3vmin;
+    font-size: 7vmin;
+    padding: 1vmin;
+    border: rgba(1, 0, 0, 0.6) solid;
+    transform: translate(-50%);
+}
